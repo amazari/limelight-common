@@ -2,3 +2,23 @@
 *.class
 .gradle
 /build
+
+# ignore eclipse files
+*.classpath
+*.project
+*.settings
+
+#ignore intellij files
+/*.iml
+/*.ipr
+/*.iws
+.idea
+
+#ignore common editors artefacts
+*~
+*.sublime-*
+.nb-gradle
+.textmate
+.DS_Store
+/out
+/bin
